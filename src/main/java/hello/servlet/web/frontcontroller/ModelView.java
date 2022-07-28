@@ -4,19 +4,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ModelView {
-    private String viewname;
+    private String viewName;
     private Map<String, Object> model = new HashMap<>();
 
     public ModelView(String viewname) {
-        this.viewname = viewname;
+        this.viewName = viewname;
     }
 
-    public String getViewname() {
-        return viewname;
+    public String getViewName() {
+        return viewName;
     }
 
-    public void setViewname(String viewname) {
-        this.viewname = viewname;
+    public void setViewName(String viewName) {
+        this.viewName = viewName;
     }
 
     public Map<String, Object> getModel() {
